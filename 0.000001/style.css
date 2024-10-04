@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #343131, #A04747, #D8A25E, #EEDF7A);
+    height: 100vh;
+}
+
+header {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(52, 49, 49, 0.8);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 20px;
+}
+
+nav {
+    margin-left: auto; /* Move o nav para a direita */
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
