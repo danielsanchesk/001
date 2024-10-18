@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #343131, #A04747, #D8A25E, #EEDF7A);
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(52, 49, 49, 0.8);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    top:2rem ;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 20px;
+}
+
+nav {
+    margin-left: auto; 
+    width: 50%;
+   
+
+}
+
+.nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    justify-content:center ;
+    text-align: center;
+}
+
+.form{
+    margin-right: 25px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid blueviolet;
+}
+
+.input[type="text"] {
+    padding: 5px;
+    
+}
