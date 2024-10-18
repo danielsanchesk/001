@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+
+
+
+:root{
+--pr-color: #181C14;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -9,7 +17,7 @@ header {
     width: 100%;
     margin: 20px auto;
     padding: 10px;
-    background-color: rgba(52, 49, 49, 0.8);
+    background-color: var(--pr-color);
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -23,20 +31,16 @@ header {
     margin-right: 20px;
 }
 
-nav {
-    margin-left: auto; 
-    width: 50%;
-   
-
-}
-
-.nav a {
+.nav a{
     margin: 0 15px;
     color: white;
     text-decoration: none;
     justify-content:center ;
     text-align: center;
+   
+
 }
+
 
 .form{
     margin-right: 25px;
@@ -48,3 +52,58 @@ nav {
     padding: 5px;
     
 }
+
+.sec{
+    margin-left: 12px;
+    display: flex;
+}
+
+.titulosec{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    color: var(--pr-color) ;
+}
+
+.pit{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pit h1{
+    background-color: antiquewhite;
+    border-radius: 4px 4px 4px 4px;
+    border: 2px solid var(--pr-color) ;
+    transition: .5s ease;
+}
+
+.pit h1:hover{
+    background-color: #A04747;
+
+
+}
+
+.logo{
+    font-family: "Prociono", serif;
+    font-size: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
