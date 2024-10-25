@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+
+
+
+:root{
+--pr-color: #181C14;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #343131, #A04747, #D8A25E, #EEDF7A);
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: var(--pr-color);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    top:2rem ;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.nav a{
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    justify-content:center ;
+    text-align: center;
+   
+
+}
+
+
+.form{
+    margin-right: 25px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid blueviolet;
+}
+
+.input[type="text"] {
+    padding: 5px;
+    
+}
+
+.sec{
+    margin-left: 12px;
+    display: flex;
+}
+
+.titulosec{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    color: var(--pr-color) ;
+}
+
+.pit{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pit h1{
+    background-color: antiquewhite;
+    border-radius: 4px 4px 4px 4px;
+    border: 2px solid var(--pr-color) ;
+    transition: .5s ease;
+}
+
+.pit h1:hover{
+    background-color: #A04747;
+
+
+}
+
+.logo{
+    font-family: "Prociono", serif;
+    font-size: 50px;
+
+}
+
+.im{
+   justify-content: center;
+   padding: 15px;
+   border-radius: 0.5ren;
+   border: 2px solid var(--pr-color);
+   background-color: aliceblue;
+
+    
+}
+
+.img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5ren;
+
+}
+
+.sec{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+
+.ico{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
